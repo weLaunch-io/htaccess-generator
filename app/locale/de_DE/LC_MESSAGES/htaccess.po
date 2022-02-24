@@ -1,0 +1,845 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codegroove.net
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: htaccess generator by DB-Dzine\n"
+"Report-Msgid-Bugs-To: vmc@codegroove.net\n"
+"POT-Creation-Date: 2016-01-06 11:44+0100\n"
+"PO-Revision-Date: 2016-01-06 11:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: DB-Dzine <contact@db-dzine.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext\n"
+"X-Poedit-Basepath: ../../../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: config/app.php:72
+msgid "<h2>MySQL Error:</h2>"
+msgstr "<h2>MySQL Error:</h2>"
+
+#: config/app.php:75
+msgid ""
+"Maybe you have entered wrong MySQL credentials? Please fix this by "
+"installing the script again with the right credentials!"
+msgstr ""
+
+#: controllers/auth.controller.php:24
+msgid ""
+"<h4>Login successfull</h4><p>If you need help with operation or if you get "
+"any error please contact us via <b>codecanyon</b></p>"
+msgstr ""
+"<h4>Login erfolgreich</h4><p>Wenn Sie Hilfe zur Bedienung benötigen oder "
+"Fehler bei der Eingabe erhalten, kontaktieren Sie uns über codecanyon!</p>"
+
+#: controllers/auth.controller.php:29
+msgid "<h4>Login failed</h4> Wrong password."
+msgstr "<h4>Login fehlgeschlagen</h4> Falsches Passwort."
+
+#: controllers/auth.controller.php:43
+msgid "You have been signed out."
+msgstr "Sie wurden erfolgreich abgemeldet"
+
+#: controllers/htaccess.controller.php:251
+msgid "Download successfull!"
+msgstr "Download erfolgreich!"
+
+#: controllers/htaccess.controller.php:252
+msgid "The download of your htaccess should have started automatically."
+msgstr "Der Download der htaccess sollte automatisch gestartet sein."
+
+#: controllers/htaccess.controller.php:285
+msgid "Delete successfull"
+msgstr "Löschen erfolgreich!"
+
+#: controllers/htaccess.controller.php:325
+msgid "htaccess saved!"
+msgstr "Hatzen gespeichert!"
+
+#: controllers/htaccess.controller.php:326
+msgid ""
+"You can view your htaccess when you click on `my htaccess` in the left "
+"sidebar"
+msgstr ""
+"Sie können sich Ihre htaccess über einen Klick auf \"meine htaccesses\" in "
+"der linken Sidebar anschauen."
+
+#: controllers/install.controller.php:20
+msgid "<h3>Passwords did not match</h3>"
+msgstr "<h3>Passwörter stimmten nicht überein</h3>"
+
+#: controllers/install.controller.php:28
+msgid "<h3>You left something out ...</h3>"
+msgstr "<h3>Sie haben etwas vergessen ...</h3>"
+
+#: templates/head.php:11
+msgid "Online htaccess Generator for Apache Webserver."
+msgstr ""
+
+#: templates/head.php:15 templates/header.php:8
+msgid "htaccess Generator"
+msgstr "htaccess Generator"
+
+#: templates/install.php:10 templates/install.php:49
+msgid "Install"
+msgstr "Installation"
+
+#: templates/install.php:13 templates/install.php:43 templates/login.php:13
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/install.php:17
+msgid "Password Repeat"
+msgstr "Passwort-Wiederholung"
+
+#: templates/install.php:22
+msgid "Database"
+msgstr "Datenbank"
+
+#: templates/install.php:25
+msgid "Host"
+msgstr "Host"
+
+#: templates/install.php:29
+msgid "Basename"
+msgstr ""
+
+#: templates/install.php:33
+msgid "Port (leave empty for default 3306)"
+msgstr "Port (leer für standard 3306)"
+
+#: templates/install.php:39
+msgid "User"
+msgstr "Benutzer"
+
+#: templates/login.php:10 templates/login.php:19
+msgid "Login"
+msgstr "Login"
+
+#: templates/myHtaccesses.php:5
+msgid "Name"
+msgstr "Name"
+
+#: templates/myHtaccesses.php:6
+msgid "Date"
+msgstr "Datum"
+
+#: templates/myHtaccesses.php:19
+msgid "Delete htaccess"
+msgstr "Htaccess löschen"
+
+#: templates/myHtaccesses.php:20
+msgid "Download htaccess"
+msgstr "Hatccess downloaden"
+
+#: templates/newHtaccess.php:6
+msgid "General"
+msgstr "Allgemein"
+
+#: templates/newHtaccess.php:7
+msgid "Performance"
+msgstr "Performance"
+
+#: templates/newHtaccess.php:8
+msgid "Password Protection"
+msgstr "Passwort Schutz"
+
+#: templates/newHtaccess.php:9
+msgid "Error Pages"
+msgstr "Error-Seiten"
+
+#: templates/newHtaccess.php:10 templates/newHtaccess.php:460
+msgid "Security"
+msgstr "Sicherheit"
+
+#: templates/newHtaccess.php:11
+msgid "Rewrites"
+msgstr "Rewrites"
+
+#: templates/newHtaccess.php:12
+msgid "Bad Robots"
+msgstr "Böse Robots"
+
+#: templates/newHtaccess.php:19
+msgid "Show comments"
+msgstr "Zeige Kommentare"
+
+#: templates/newHtaccess.php:22
+msgid "Show comments in the .htaccess?"
+msgstr "Zeige Kommentare in der .htaccess"
+
+#: templates/newHtaccess.php:24 templates/newHtaccess.php:40
+#: templates/newHtaccess.php:54 templates/newHtaccess.php:69
+#: templates/newHtaccess.php:81 templates/newHtaccess.php:98
+#: templates/newHtaccess.php:110 templates/newHtaccess.php:121
+#: templates/newHtaccess.php:131 templates/newHtaccess.php:138
+#: templates/newHtaccess.php:152 templates/newHtaccess.php:167
+#: templates/newHtaccess.php:183 templates/newHtaccess.php:196
+#: templates/newHtaccess.php:213 templates/newHtaccess.php:232
+#: templates/newHtaccess.php:335 templates/newHtaccess.php:471
+#: templates/newHtaccess.php:480 templates/newHtaccess.php:497
+#: templates/newHtaccess.php:510 templates/newHtaccess.php:526
+#: templates/newHtaccess.php:542 templates/newHtaccess.php:558
+#: templates/newHtaccess.php:574 templates/newHtaccess.php:598
+#: templates/newHtaccess.php:613 templates/newHtaccess.php:620
+#: templates/newHtaccess.php:634 templates/newHtaccess.php:653
+#: templates/newHtaccess.php:669 templates/newHtaccess.php:682
+#: templates/newHtaccess.php:728
+msgid "No"
+msgstr "Nein"
+
+#: templates/newHtaccess.php:25 templates/newHtaccess.php:41
+#: templates/newHtaccess.php:53 templates/newHtaccess.php:68
+#: templates/newHtaccess.php:82 templates/newHtaccess.php:97
+#: templates/newHtaccess.php:111 templates/newHtaccess.php:120
+#: templates/newHtaccess.php:130 templates/newHtaccess.php:137
+#: templates/newHtaccess.php:151 templates/newHtaccess.php:168
+#: templates/newHtaccess.php:184 templates/newHtaccess.php:197
+#: templates/newHtaccess.php:212 templates/newHtaccess.php:231
+#: templates/newHtaccess.php:336 templates/newHtaccess.php:472
+#: templates/newHtaccess.php:481 templates/newHtaccess.php:496
+#: templates/newHtaccess.php:509 templates/newHtaccess.php:525
+#: templates/newHtaccess.php:543 templates/newHtaccess.php:557
+#: templates/newHtaccess.php:575 templates/newHtaccess.php:584
+#: templates/newHtaccess.php:597 templates/newHtaccess.php:612
+#: templates/newHtaccess.php:619 templates/newHtaccess.php:635
+#: templates/newHtaccess.php:654 templates/newHtaccess.php:670
+#: templates/newHtaccess.php:683 templates/newHtaccess.php:729
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/newHtaccess.php:29
+msgid "Cross origin requests"
+msgstr "Cross origin anfragen"
+
+#: templates/newHtaccess.php:33 templates/newHtaccess.php:35
+msgid "Allow cross-origin requests"
+msgstr "Cross origin Anfragen erlauben"
+
+#: templates/newHtaccess.php:46 templates/newHtaccess.php:48
+msgid "Allow cross-origin images"
+msgstr "Cross origin Bilder erlauben"
+
+#: templates/newHtaccess.php:49
+msgid "Send the CORS header for images when browsers request it."
+msgstr "CORS-Header für Bilder senden wenn der Browser es anfragt. "
+
+#: templates/newHtaccess.php:61 templates/newHtaccess.php:63
+msgid "Allow cross-origin web fonts"
+msgstr "Cross origin Web Fonts erlauben"
+
+#: templates/newHtaccess.php:64
+msgid "Allow cross-origin access to web fonts."
+msgstr "Cross origin Web Fonts erlauben"
+
+#: templates/newHtaccess.php:74 templates/newHtaccess.php:76
+msgid "Allow Cross-origin resource timing"
+msgstr "Cross origin ressource timing erlauben"
+
+#: templates/newHtaccess.php:77
+msgid "Allow cross-origin access to the timing information for all resources."
+msgstr "Erlaube Cross-Origin Zugang zu den Zeitinformationen aller Ressourcen."
+
+#: templates/newHtaccess.php:86
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: templates/newHtaccess.php:92
+msgid ""
+"Starting with Internet Explorer 11, document modes are deprecated. If your "
+"business still relies on older web apps and services that were designed for "
+"older versions of Internet Explorer, you might want to consider enabling "
+"`Enterprise Mode` throughout your company."
+msgstr ""
+
+#: templates/newHtaccess.php:94
+msgid "Render pages in the highest IE-mode?"
+msgstr "Webseite im höchsten IE-Modus rendern?"
+
+#: templates/newHtaccess.php:103
+msgid "Allow IFrame cookies?"
+msgstr "IFrame-Cookies erlauben?"
+
+#: templates/newHtaccess.php:106
+msgid "Allow cookies to be set from iframes in Internet Explorer."
+msgstr "Erlaube Cookies innerhalb von IFrames im Internet Explorer zu setzen."
+
+#: templates/newHtaccess.php:115
+msgid "Media types"
+msgstr "Daten-Typen"
+
+#: templates/newHtaccess.php:118
+msgid "Serve resources with the proper media types (f.k.a. MIME types)?"
+msgstr "Ressourcen mit dem richtigen Datentyp ausliefern (a.k.a. MIME Typen)?"
+
+#: templates/newHtaccess.php:125
+msgid "Character encodings"
+msgstr "Charakter Encodings"
+
+#: templates/newHtaccess.php:128
+msgid "Serve `text/html` or `text/plain` with charset `UTF-8`?"
+msgstr "text/html oder text/plain in UTF-8 ausgeben?"
+
+#: templates/newHtaccess.php:135
+msgid ""
+"Serve <abbr data-toggle=\"popover\" title=\"File types\" data-content=\"."
+"atom, .bbaw, .css, .geojson, .js, .json, .jsonld, .manifest, .rdf, .rss, ."
+"topojson, .vtt, .webapp, .webmanifest, .xloc, .x, \"> data interchange file "
+"types</abbr> with charset `UTF-8`?"
+msgstr ""
+
+#: templates/newHtaccess.php:146
+msgid "Compression"
+msgstr "Komprimierung"
+
+#: templates/newHtaccess.php:149
+msgid "Enable compression?"
+msgstr "Komprimierung erlauben?"
+
+#: templates/newHtaccess.php:159
+msgid ""
+"If you are using `mod_pagespeed`, please note that setting the `Cache-"
+"Control: no-transform` response header will prevent `PageSpeed` from "
+"rewriting `HTML` files, and, if the "
+"`ModPagespeedDisableRewriteOnNoTransform` directive isn't set to `off`, also "
+"from rewriting other resources."
+msgstr ""
+
+#: templates/newHtaccess.php:160
+msgid "Enable content transformation"
+msgstr "Content transformation erlauben"
+
+#: templates/newHtaccess.php:172
+msgid "Files"
+msgstr "Dateien"
+
+#: templates/newHtaccess.php:176 templates/newHtaccess.php:178
+msgid "Enable file concatenation?"
+msgstr "Datei-Verkettung erlauben?"
+
+#: templates/newHtaccess.php:179
+msgid ""
+"Allow concatenation from within specific files.<br/><br/>If you have the "
+"following lines in a file called, e.g. `main.combined.js`:<br/><br/>#include "
+"file='js/jquery.js'<br/>#include file='js/jquery.timer.js'<br/><br/>Apache "
+"will replace those lines with the content of the specified files."
+msgstr ""
+
+#: templates/newHtaccess.php:189
+msgid "Enable filename-based cache busting"
+msgstr "Erlaube Dateinamen basiertes Cache-Busting"
+
+#: templates/newHtaccess.php:192
+msgid ""
+"If you're not using a build process to manage your filename version revving, "
+"you might want to consider enabling the following directives\tto route all "
+"requests such as `/style.12345.css` to `/style.css`."
+msgstr ""
+
+#: templates/newHtaccess.php:201
+msgid "Expiration"
+msgstr "Ablaufdatum"
+
+#: templates/newHtaccess.php:205 templates/newHtaccess.php:207
+msgid "Remove ETags"
+msgstr "ETags entfernen"
+
+#: templates/newHtaccess.php:208
+msgid "Remove `ETags` as resources are sent with far-future expires headers."
+msgstr ""
+"Entferne ETags von Ressourcen da diese mit expires header gesendet werden."
+
+#: templates/newHtaccess.php:222
+msgid ""
+"If you don't control versioning with filename-based cache busting, you "
+"should consider lowering the cache times to something like one week."
+msgstr ""
+
+#: templates/newHtaccess.php:224
+msgid "Enable expires headers?"
+msgstr "Expires headers erlauben?"
+
+#: templates/newHtaccess.php:236
+msgid "Expires Default"
+msgstr "Standard-Ablaufdatum"
+
+#: templates/newHtaccess.php:240
+msgid "Custom type expiration"
+msgstr "Benutzerdefiniertes typ-Ablaufdatum"
+
+#: templates/newHtaccess.php:243
+msgid "Type"
+msgstr "Typ"
+
+#: templates/newHtaccess.php:245
+msgid "-- Select document type --"
+msgstr "-- Dokumenten-Typ auswählen --"
+
+#: templates/newHtaccess.php:305
+msgid "Expire time value"
+msgstr "Verfallszeitwert"
+
+#: templates/newHtaccess.php:309
+msgid "Expire time"
+msgstr "Ablaufzeit"
+
+#: templates/newHtaccess.php:311
+msgid "Second(s)"
+msgstr "Sekunde(n)"
+
+#: templates/newHtaccess.php:312
+msgid "Hour(s)"
+msgstr "Stunde(n)"
+
+#: templates/newHtaccess.php:313
+msgid "Week(s)"
+msgstr "Woche(n)"
+
+#: templates/newHtaccess.php:314
+msgid "Month(s)"
+msgstr "Monat(e)"
+
+#: templates/newHtaccess.php:315
+msgid "Year(s)"
+msgstr "Jahr(e)"
+
+#: templates/newHtaccess.php:321
+msgid "Add Expiration"
+msgstr "Ablaufdatum hinzufügen"
+
+#: templates/newHtaccess.php:324
+msgid "Remove last Expiration"
+msgstr "Letztes Ablaufdatum entfernen"
+
+#: templates/newHtaccess.php:333
+msgid "Enable directory protection?"
+msgstr "Orderschutz erlauben?"
+
+#: templates/newHtaccess.php:340
+msgid "Settings (.htaccess)"
+msgstr "Einstellungen (htaccess)"
+
+#: templates/newHtaccess.php:343
+msgid ""
+"<abbr title=\"Password protected Area\">Name of the proteced area</abbr>"
+msgstr ""
+"<abbr title=\"Password protected Area\">Name des password geschützten "
+"Bereichs</abbr>"
+
+#: templates/newHtaccess.php:347
+msgid "<abbr title=\"e.g. .htpasswd\">Path to the .htpasswd</abbr>"
+msgstr "<abbr title=\"z.B. .htpasswd\">Pfad zur .htpasswd</abbr>"
+
+#: templates/newHtaccess.php:351
+msgid "Login (.htpasswd)"
+msgstr "Login (.htpasswd)"
+
+#: templates/newHtaccess.php:354
+msgid "Password encryption method"
+msgstr "Passwort Verschlüsselung"
+
+#: templates/newHtaccess.php:369
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/newHtaccess.php:373
+msgid "Password for the User"
+msgstr "Passwort für den User"
+
+#: templates/newHtaccess.php:379
+msgid "Add User"
+msgstr "User hinzufügen"
+
+#: templates/newHtaccess.php:382
+msgid "Remove User"
+msgstr "User entfernen"
+
+#: templates/newHtaccess.php:387
+msgid "Your .htpasswd"
+msgstr "Ihre .htpasswd"
+
+#: templates/newHtaccess.php:388
+msgid ""
+"Save below text inside a file called \".htpasswd\". Please be sure that you "
+"have specified the real path to this file (see above in settings)"
+msgstr ""
+
+#: templates/newHtaccess.php:398 templates/newHtaccess.php:404
+msgid "Error prevention"
+msgstr "Error Vorbeugung"
+
+#: templates/newHtaccess.php:402
+msgid "Disable the pattern matching based on filenames."
+msgstr ""
+
+#: templates/newHtaccess.php:405
+msgid ""
+"This setting prevents Apache from returning a 404 error as the result of a "
+"rewrite when the directory with the same name does not exist."
+msgstr ""
+
+#: templates/newHtaccess.php:409
+msgid "yes"
+msgstr "ja"
+
+#: templates/newHtaccess.php:410 templates/newHtaccess.php:585
+msgid "no"
+msgstr "nein"
+
+#: templates/newHtaccess.php:414
+msgid "Custom error messages/pages"
+msgstr "Benutzerdefinierte error-Meldung / -Seite"
+
+#: templates/newHtaccess.php:417
+msgid "Error Code"
+msgstr "Error-Code"
+
+#: templates/newHtaccess.php:419
+msgid "-- Select error Code --"
+msgstr "-- Error-Code auswählen --"
+
+#: templates/newHtaccess.php:444
+msgid "Error document"
+msgstr "Error-Dokument"
+
+#: templates/newHtaccess.php:450
+msgid "Add error page"
+msgstr "Error-Seite hinzufügen"
+
+#: templates/newHtaccess.php:453
+msgid "Remove last error page"
+msgstr "Letzte Error-Seite entfernen"
+
+#: templates/newHtaccess.php:464
+msgid "Enable Clickjacking-Protection?"
+msgstr "Clickjacking-Schutz erlauben?"
+
+#: templates/newHtaccess.php:467
+msgid "Protect website against clickjacking."
+msgstr "Beschütze deine Webseite gegen Clickjacking."
+
+#: templates/newHtaccess.php:477
+msgid ""
+"Content Security Policy (CSP) - Please use <a href=\"https://cspbuilder.info"
+"\" target=\"_blank\">CSP Builder</a>"
+msgstr ""
+"Content Security Policy (CSP) - Bitte benutzen Sie <a href=\"https://"
+"cspbuilder.info\" target=\"_blank\">CSP Builder</a>"
+
+#: templates/newHtaccess.php:485
+msgid "File access"
+msgstr "Dateizugang"
+
+#: templates/newHtaccess.php:489
+msgid "No access to directories without default document?"
+msgstr "Verhindere den Zugang zu Ordnern ohne default Dokument?"
+
+#: templates/newHtaccess.php:492
+msgid ""
+"You should leave the following uncommented, as you shouldn't allow anyone to "
+"surf through every directory on your server (which may includes rather "
+"private places such as the CMS's directories).."
+msgstr ""
+
+#: templates/newHtaccess.php:502
+msgid ""
+"Block access to hidden files and directories (e.g. .git) except `/.well-"
+"known/` hidden directory."
+msgstr ""
+
+#: templates/newHtaccess.php:505
+msgid ""
+"These types of files usually contain user preferences or the preserved state "
+"of an utility, and can include rather private places like, for example, the "
+"`.git` or `.svn` directories. The `/.well-known/` directory represents the "
+"standard (RFC 5785) path prefix for well-known locations (e.g.: `/.well-"
+"known/manifest.json`, `/.well-known/keybase.txt`), and therefore, access to "
+"its visible content should not be blocked."
+msgstr ""
+
+#: templates/newHtaccess.php:517
+msgid "Block access to files that can expose sensitive information?"
+msgstr ""
+
+#: templates/newHtaccess.php:519
+msgid "Block hidden files"
+msgstr "Blockiere versteckte Dateien"
+
+#: templates/newHtaccess.php:520
+msgid ""
+"By default, block access to backup and source files that may be left by some "
+"text editors and can pose a security risk when anyone has access to them."
+msgstr ""
+
+#: templates/newHtaccess.php:533
+msgid ""
+"Remove the `includeSubDomains` optional directive if the website's "
+"subdomains are not using HTTPS."
+msgstr ""
+
+#: templates/newHtaccess.php:535
+msgid "Enable HTTP Strict Transport Security (HSTS)?"
+msgstr ""
+
+#: templates/newHtaccess.php:538
+msgid ""
+"Ensures that browser will ONLY connect to your server via HTTPS, regardless "
+"of what the users type in the browser's address bar."
+msgstr ""
+
+#: templates/newHtaccess.php:550
+msgid "Reduce MIME type security risks?"
+msgstr ""
+
+#: templates/newHtaccess.php:552
+msgid "MIME type security"
+msgstr "MIME-Type Sicherheit"
+
+#: templates/newHtaccess.php:553
+msgid ""
+"Prevent some browsers from MIME-sniffing the response.<br/><br/>This reduces "
+"exposure to drive-by download attacks and cross-origin data leaks, and "
+"should be left uncommented, especially if the server is serving user-"
+"uploaded content or content that could potentially be treated as executable "
+"by the browser."
+msgstr ""
+
+#: templates/newHtaccess.php:565
+msgid ""
+"Do not rely on the XSS filter to prevent XSS attacks! Ensure that you are "
+"taking all possible measures to prevent XSS attacks, the most obvious being: "
+"validating and sanitizing your website's inputs."
+msgstr ""
+
+#: templates/newHtaccess.php:567
+msgid "Re-enable (XSS) filter"
+msgstr "Reaktviere den XSS-Filter"
+
+#: templates/newHtaccess.php:569
+msgid "XSS Filter"
+msgstr "XSS-Filter"
+
+#: templates/newHtaccess.php:570
+msgid ""
+"Try to re-enable the cross-site scripting (XSS) filter built into most web "
+"browsers."
+msgstr "Versuche den im Browser eingebauten XSS-Filter wieder zu aktivieren."
+
+#: templates/newHtaccess.php:579
+msgid "Service Side Technology information"
+msgstr "Service-seitige technische Informationen"
+
+#: templates/newHtaccess.php:582
+msgid "Remove the `X-Powered-By` response header?"
+msgstr "Entferne den \"X-Powered-By\" antwort-Header?"
+
+#: templates/newHtaccess.php:590
+msgid "Show server software information?"
+msgstr "Zeige Server software Informationen?"
+
+#: templates/newHtaccess.php:592
+msgid "Server information"
+msgstr "Server Information"
+
+#: templates/newHtaccess.php:593
+msgid ""
+"Prevent Apache from adding a trailing footer line containing information "
+"about the server to the server-generated documents (e.g.: error messages, "
+"directory listings, etc.)"
+msgstr ""
+
+#: templates/newHtaccess.php:607
+msgid "Rewrite Engine"
+msgstr ""
+
+#: templates/newHtaccess.php:610
+msgid "Enable Rewrites?"
+msgstr "Rewrites erlauben?"
+
+#: templates/newHtaccess.php:617
+msgid "Enable follow Symlinks?"
+msgstr "Follow Symlinks erlauben?"
+
+#: templates/newHtaccess.php:631
+msgid "Enable SymLinksIfOwnerMatch"
+msgstr "SymLinksIfOwnerMatch erlauben?"
+
+#: templates/newHtaccess.php:639
+msgid "Rewrite Base"
+msgstr "Rewrite Basis"
+
+#: templates/newHtaccess.php:646
+msgid ""
+"Allow rewrites to redirect with the appropriate schema automatically (http "
+"or https)?"
+msgstr ""
+
+#: templates/newHtaccess.php:648
+msgid "Appropriate scheme"
+msgstr "Entsprechendes Schema"
+
+#: templates/newHtaccess.php:649
+msgid ""
+"Set %{ENV:PROTO} variable, to allow rewrites to redirect with the "
+"appropriate schema automatically (http or https)."
+msgstr ""
+
+#: templates/newHtaccess.php:658
+msgid "Forcings"
+msgstr "Zwangsumleitungen"
+
+#: templates/newHtaccess.php:662
+msgid "Force https?"
+msgstr "Erzwinge https?"
+
+#: templates/newHtaccess.php:664
+msgid "Force https"
+msgstr "Erzwinge https"
+
+#: templates/newHtaccess.php:665
+msgid "Redirect from the `http://` to the `https://` version of the URL."
+msgstr ""
+
+#: templates/newHtaccess.php:675
+msgid "Force www?"
+msgstr "Erzwinge www?"
+
+#: templates/newHtaccess.php:677
+msgid "Force www"
+msgstr "Erzwinge www"
+
+#: templates/newHtaccess.php:678
+msgid ""
+"The same content should never be available under two different URLs, "
+"especially not with and without `www.` at the beginning. This can cause SEO "
+"problems (duplicate content), and therefore, you should choose one of the "
+"alternatives and redirect the other one."
+msgstr ""
+
+#: templates/newHtaccess.php:687
+msgid "Custom rules"
+msgstr "Benutzerdefinierte Regeln"
+
+#: templates/newHtaccess.php:688
+msgid "For more information on how to use RewriteRules see:"
+msgstr "Mehr Informationen zu RewriteRules:"
+
+#: templates/newHtaccess.php:690
+msgid "Offical Documentation"
+msgstr "Offizielle Dokumentation"
+
+#: templates/newHtaccess.php:691
+msgid "Examples"
+msgstr "Beispiele"
+
+#: templates/newHtaccess.php:699
+msgid ""
+"Pattern (Tip: use <a href=\"http://regexr.com/\" target=\"_blank\">REGEXR</"
+"a>)"
+msgstr ""
+
+#: templates/newHtaccess.php:703
+msgid "Substitution"
+msgstr "Ersetzung"
+
+#: templates/newHtaccess.php:707
+msgid "Flags"
+msgstr "Flags"
+
+#: templates/newHtaccess.php:713
+msgid "Add custom rule"
+msgstr "Benutzerdefinierte Regel hinzufügen"
+
+#: templates/newHtaccess.php:716
+msgid "Remove custom rule"
+msgstr "Benutzerdefinierte Regel entfernen"
+
+#: templates/newHtaccess.php:723
+msgid "Block bad robots"
+msgstr "Blockiere böse robots"
+
+#: templates/newHtaccess.php:726
+msgid "Block bad robots?"
+msgstr "Blockiere böse Robots?"
+
+#: templates/newHtaccess.php:733
+msgid "Bad Bots & Scrapers"
+msgstr "Böse Bots & Scraper"
+
+#: templates/newHtaccess.php:738
+msgid "Vulnerability Scanners"
+msgstr "Sicherheitslücken-Scanner"
+
+#: templates/newHtaccess.php:743
+msgid "Aggressive Chinese Search Engine"
+msgstr "Aggressive Chinesische Suchmaschinen"
+
+#: templates/newHtaccess.php:748
+msgid "Aggressive Russian Search Engine"
+msgstr "Aggressive russische Suchmaschinen"
+
+#: templates/newHtaccess.php:763
+msgid "Your Htaccess"
+msgstr "Deine htaccess"
+
+#: templates/newHtaccess.php:771 templates/sidebar.php:27
+msgid "Copy"
+msgstr "Kopieren"
+
+#: templates/newHtaccess.php:772 templates/sidebar.php:21
+msgid "Save"
+msgstr "Speichern"
+
+#: templates/newHtaccess.php:773 templates/sidebar.php:24
+msgid "Download"
+msgstr "Download"
+
+#: templates/newHtaccess.php:774
+msgid "Close"
+msgstr "Schließen"
+
+#: templates/sidebar.php:6
+msgid "New htaccess"
+msgstr "Neue htaccess"
+
+#: templates/sidebar.php:9
+msgid "My htaccess's"
+msgstr "Meine htaccesse's"
+
+#: templates/sidebar.php:15
+msgid "Current htaccess"
+msgstr "Derzetige htaccess"
+
+#: templates/sidebar.php:18
+msgid "View result"
+msgstr "Ergebnis zeigen"
+
+#: templates/sidebar.php:30
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: templates/sidebar.php:36
+msgid "Server Information"
+msgstr "Server Information"
+
+#: templates/sidebar.php:39
+msgid "Software:"
+msgstr "Software:"
+
+#: templates/sidebar.php:42
+msgid "Servername:"
+msgstr "Servername:"
+
+#: templates/sidebar.php:45
+msgid "Home:"
+msgstr "Home:"
+
+#~ msgid "Title"
+#~ msgstr "htaccess generator"
